@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './Cart.module.css'
+import classes from './Card.module.css'
 
-const Cart = (props) => {
+const Card = (props) => {
     return(
         <div className={classes.card}>
             {props.children}
@@ -9,4 +9,4 @@ const Cart = (props) => {
     )
 }
 
-export default Cart;
+export default Card;
